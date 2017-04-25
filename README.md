@@ -1,6 +1,6 @@
 # npmtest-gulp-html-validator
 
-#### test coverage for  [gulp-html-validator (v0.0.5)](http://github.com/hoobdeebla/gulp-html-validator)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-html-validator.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-html-validator) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-html-validator.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-html-validator)
+#### basic test coverage for  [gulp-html-validator (v0.0.5)](http://github.com/hoobdeebla/gulp-html-validator)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-html-validator.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-html-validator) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-html-validator.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-html-validator)
 
 #### Validate html with w3.org
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-html-validator/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-html-validator/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-html-validator/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-html-validator/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-html-validator/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-html-validator/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-html-validator/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-html-validator/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-html-validator/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-html-validator/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-html-validator/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-html-validator/build/coverage.html/index.html)
 
@@ -96,7 +96,8 @@
     "scripts": {
         "test": "mocha --reporter spec"
     },
-    "version": "0.0.5"
+    "version": "0.0.5",
+    "bin": {}
 }
 ```
 
